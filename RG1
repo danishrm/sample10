@@ -20,7 +20,4 @@ resource "azurerm_resource_group" "example2" {
   name     = "resourceGR"
   location = "East US2"
 }
-resource "azurerm_resource_group" "example9" {
-  name     = "resourceGRchange"
-  location = "west US2"
-}
+
